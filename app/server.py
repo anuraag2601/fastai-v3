@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1R4gEceSjrd2vlVwSh1h16pVeXRF1elex?alt=media&key=AIzaSyDQQBctYcZAowHdt1cRxgMDOihGjifZl7g'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-EDuflZ-FC8ZYRg-BcVXDVhMTnJgrhzF?alt=media&key=AIzaSyDQQBctYcZAowHdt1cRxgMDOihGjifZl7g'
 export_file_name = 'export.pkl'
 
 classes = ['hyundaiCreta', 'jeepCompass', 'kiaSeltos', 'toyotaFortuner']
